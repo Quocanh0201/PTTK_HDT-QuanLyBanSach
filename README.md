@@ -1,8 +1,32 @@
 # Xây dựng hệ thống quản lý bán sách
+# Xây dựng hệ thống quản lý bán sách
 
 ## Thành viên của nhóm
 
-## Sử dụng Netbeans để chạy dự án
-- B1: git clone https://github.com/nmthuannx05/PTTK_HTTT.git
-- B2: vào PHPadmin(XamPP) tạo 1 db mới có tên quanlibansach sau đó import file quanlibansach.sql trong thư mục
-- B3: Vào GUI ==> DangNhapFrame để chạy
+- Võ Quốc Anh
+
+## Hướng dẫn chạy dự án
+
+### Bước 1: Clone project
+
+git clone https://github.com/Quocanh0201/PTTK_HDT-QuanLyBanSach.git
+
+### Bước 2: Cấu hình cơ sở dữ liệu
+
+Mở MySQL/phpMyAdmin và tạo database:
+
+quanlibansach
+
+Sau đó import file SQL trong thư mục `src/Database`.
+
+### Bước 3: Cấu hình kết nối database
+
+Kiểm tra thông tin kết nối trong:
+
+`src/connectDB/JDBCUtil.java`
+
+### Bước 4: Chạy chương trình
+
+Mở project bằng NetBeans và chạy:
+
+`DangNhapFrame`
